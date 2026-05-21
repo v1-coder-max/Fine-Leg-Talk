@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://v1-coder-max.github.io/Fine-Leg-Talk/sitemap.xml
