@@ -312,7 +312,7 @@
 
 <script>
   function esc(s) { return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
-  function postUrl(id) { return 'blog-post.html?post=' + encodeURIComponent(id); }
+  function postUrl(id) { return id + '.html'; }
 
   // Canonical + OG URL
   (function(){ const u = location.origin + location.pathname; const c = document.getElementById('pageCanonical'); const o = document.getElementById('ogUrl'); if(c) c.href=u; if(o) o.content=u; })();

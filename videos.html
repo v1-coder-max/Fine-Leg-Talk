@@ -225,7 +225,7 @@
   <div class="container">
     <div class="ph-lbl">Fine Leg Talk — YouTube</div>
     <h1 class="ph-h1">Videos &amp; <em style="font-family:'Playfair Display',serif;font-style:italic;color:var(--gold);">Shorts</em></h1>
-    <p class="ph-sub">Every upload from the channel, automatically fetched. New videos appear here as soon as they go live on YouTube.</p>
+    <p class="ph-sub">Match reviews, analysis and Shorts from the Fine Leg Talk YouTube channel.</p>
   </div>
 </header>
 
@@ -248,19 +248,6 @@
 <section class="videos-section">
   <div class="container">
 
-    <!-- Setup instructions banner — shown if API not configured -->
-    <div class="setup-banner" id="setupBanner">
-      <h3>⚙️ One-time setup required to load videos automatically</h3>
-      <p>To fetch your YouTube videos dynamically, open <code>videos.html</code> in a text editor and update the <code>CONFIG</code> block at the bottom of the file with your API key and Channel ID:</p>
-      <ol>
-        <li>Go to <strong>console.cloud.google.com</strong> → Create a project → Enable <strong>YouTube Data API v3</strong> → Create an <strong>API Key</strong></li>
-        <li>Find your Channel ID: <strong>YouTube Studio → Settings → Channel → Basic Info</strong></li>
-        <li>Paste both values into the <code>CONFIG</code> object in the <code>&lt;script&gt;</code> tag at the bottom of this file</li>
-        <li>Save, refresh — your videos load automatically from then on</li>
-      </ol>
-      <p style="margin-top:8px;">The API is <strong>free</strong> (10,000 units/day quota; this page uses ~3 units per load). Restrict your API key to your domain in Google Cloud Console to prevent misuse.</p>
-    </div>
-
     <!-- Featured video — populated by JS -->
     <div class="featured-wrap" id="featuredWrap"></div>
 
@@ -280,8 +267,8 @@
 <!-- ═══ YT CTA ═══ -->
 <div class="yt-strip">
   <div class="container">
-    <h2>All Videos on YouTube →</h2>
-    <p>Subscribe to Fine Leg Talk for new uploads every week — match reviews, analysis, and Shorts drop throughout the cricket calendar.</p>
+    <h2>Watch on YouTube</h2>
+    <p>Subscribe to Fine Leg Talk for cricket analysis, match reviews and Shorts.</p>
     <a href="https://youtube.com/@FineLegTalk" target="_blank" class="yt-strip-btn" id="ytChannelLink">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
       Subscribe on YouTube
