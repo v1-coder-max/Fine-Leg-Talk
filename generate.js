@@ -433,3 +433,25 @@ const sitemapXml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http:
 
 fs.writeFileSync('sitemap.xml', sitemapXml, 'utf8');
 console.log('Updated: sitemap.xml (' + allUrls.length + ' URLs)');
+
+// Update llms.txt
+const postLinks = posts.map(p =>
+  '- [' + p.title + '](' + BASE_URL + '/' + p.id + '.html)'
+).join('\n');
+
+const llmsTxt = '# Fine Leg Talk\n\n' +
+'> Cricket analysis, match reviews and honest opinion from a passionate fan. Covering Test cricket, IPL, ODIs and the stories behind the game.\n\n' +
+'## Site\n\n' +
+'- Homepage: ' + BASE_URL + '/\n' +
+'- Blog: ' + BASE_URL + '/blogs.html\n' +
+'- Match Centre: ' + BASE_URL + '/matches.html\n' +
+'- Videos: ' + BASE_URL + '/videos.html\n' +
+'- Stats: ' + BASE_URL + '/stats.html\n' +
+'- YouTube: https://youtube.com/@FineLegTalk\n\n' +
+'## Blog Posts\n\n' +
+postLinks + '\n\n' +
+'## About\n\n' +
+'Fine Leg Talk is an independent cricket blog and YouTube channel run by a cricket fan. Content focuses on in-depth analysis rather than news reporting — match reviews, player technique breakdowns, historical pieces, and opinion on the state of the game. No paywalls, no sponsored content.\n';
+
+fs.writeFileSync('llms.txt', llmsTxt, 'utf8');
+console.log('Updated: llms.txt (' + posts.length + ' posts)');
