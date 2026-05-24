@@ -412,7 +412,6 @@
   function renderCard(data, query) {
     const thumb   = data.thumbnail?.source || '';
     const wikiUrl = data.content_urls?.desktop?.page || `https://en.wikipedia.org/wiki/${encodeURIComponent(data.title || '')}`;
-    const espnUrl = `https://www.espncricinfo.com/search?q=${encodeURIComponent(query)}`;
     resultArea.innerHTML = `
       <div class="result-section">
         <div class="container">
@@ -426,7 +425,6 @@
               <p class="wiki-extract">${esc(data.extract || '')}</p>
               <div class="wiki-links">
                 <a href="${esc(wikiUrl)}" target="_blank" rel="noopener" class="wiki-link">📖 Full Wikipedia article →</a>
-                <a href="${esc(espnUrl)}" target="_blank" rel="noopener" class="wiki-link">📊 ESPNcricinfo →</a>
               </div>
               <div class="wiki-note">ℹ️ Content from Wikipedia (CC BY-SA 4.0). May not reflect the very latest matches.</div>
             </div>
@@ -436,15 +434,13 @@
   }
 
   function showError(query) {
-    const espnUrl = `https://www.espncricinfo.com/search?q=${encodeURIComponent(query)}`;
     resultArea.innerHTML = `
       <div class="result-section">
         <div class="container">
           <div class="state-box">
             <div class="state-icon">🏏</div>
             <div class="state-title">No Wikipedia article found for "${esc(query)}"</div>
-            <p class="state-sub">Try a slightly different spelling, or search directly on ESPNcricinfo for full career stats.</p>
-            <a href="${esc(espnUrl)}" target="_blank" rel="noopener" class="wiki-link" style="display:inline-flex;">📊 Search on ESPNcricinfo →</a>
+            <p class="state-sub">Try a slightly different spelling or full name — e.g. "Virat Kohli" instead of "Kohli".</p>
           </div>
         </div>
       </div>`;
