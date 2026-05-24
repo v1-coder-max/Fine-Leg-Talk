@@ -333,7 +333,7 @@ function generateHTML(post, allPosts) {
         <div class="side-card">
           <div class="yt-side">
             <div class="yt-side-icon">&#127916;</div>
-            <div class="yt-side-sub">2.3K</div>
+            <div class="yt-side-sub" id="sideSubCount">—</div>
             <div class="yt-side-lbl">Subscribers</div>
             <p class="yt-side-p">Every article has a companion video on the channel. Subscribe so you don't miss it.</p>
             <a href="https://youtube.com/@FineLegTalk" target="_blank" rel="noopener" class="btn btn-yt" style="width:100%;justify-content:center;margin-top:4px;">
@@ -387,6 +387,21 @@ function generateHTML(post, allPosts) {
     }, { rootMargin: '-30% 0px -60% 0px' });
     headings.forEach(function(h) { ioToc.observe(h); });
   }
+
+  // Fetch real subscriber count
+  (function() {
+    function fmtSubs(n) {
+      if (n >= 1000000) return (n/1000000).toFixed(1).replace(/\\.0$/,'') + 'M';
+      if (n >= 1000) return (n/1000).toFixed(1).replace(/\\.0$/,'') + 'K';
+      return String(n);
+    }
+    fetch('https://www.googleapis.com/youtube/v3/channels?part=statistics&id=UCZqKxVpewQijuTFmfSTXvaQ&key=AIzaSyCwOe5-zaNaBmNeOWJDN4Auoqr56EmGBsE')
+      .then(function(r){return r.json();})
+      .then(function(d){
+        var c = d.items && d.items[0] && d.items[0].statistics && d.items[0].statistics.subscriberCount;
+        if (c) { var el = document.getElementById('sideSubCount'); if (el) el.textContent = fmtSubs(parseInt(c,10)); }
+      }).catch(function(){});
+  })();
 
   function shareTwitter() {
     window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + '&url=' + encodeURIComponent(location.href), '_blank', 'width=550,height=450');
