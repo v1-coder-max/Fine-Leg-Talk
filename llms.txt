@@ -4,30 +4,30 @@
 
 ## Site
 
-- Homepage: https://v1-coder-max.github.io/Fine-Leg-Talk/
-- Blog: https://v1-coder-max.github.io/Fine-Leg-Talk/blogs.html
-- Match Centre: https://v1-coder-max.github.io/Fine-Leg-Talk/matches.html
-- Videos: https://v1-coder-max.github.io/Fine-Leg-Talk/videos.html
-- Stats: https://v1-coder-max.github.io/Fine-Leg-Talk/stats.html
+- Homepage: https://fine-leg-talk.vercel.app/
+- Blog: https://fine-leg-talk.vercel.app/blogs.html
+- Match Centre: https://fine-leg-talk.vercel.app/matches.html
+- Videos: https://fine-leg-talk.vercel.app/videos.html
+- Stats: https://fine-leg-talk.vercel.app/stats.html
 - YouTube: https://youtube.com/@FineLegTalk
 
 ## Blog Posts
 
-- [IPL 2026 Playoffs: The 4th Spot Shootout — What Every Team Needs Today](https://v1-coder-max.github.io/Fine-Leg-Talk/ipl-2026-playoff-race-4th-spot.html)
-- [India's Pace Quartet vs England: Why This Is the Greatest Bowling Attack in Indian Test History](https://v1-coder-max.github.io/Fine-Leg-Talk/india-pace-quartet-england-2025.html)
-- [The X-Factor Problem: Why India Can't Settle On an Ideal T20 XI](https://v1-coder-max.github.io/Fine-Leg-Talk/india-t20-xi-problem-2025.html)
-- [IPL vs International Cricket: Has the Balance Finally Shifted Too Far?](https://v1-coder-max.github.io/Fine-Leg-Talk/ipl-vs-international-cricket-2025.html)
-- [Remembering 2011: What Dhoni's World Cup Final Still Teaches Us About Captaincy](https://v1-coder-max.github.io/Fine-Leg-Talk/dhoni-2011-world-cup-captaincy.html)
-- [IPL 2025 Team Report Cards: Who's Delivered on Their Auction Promises?](https://v1-coder-max.github.io/Fine-Leg-Talk/ipl-2025-team-report-cards.html)
-- [Shubman Gill's Technique Under the Microscope: Ready for the Toughest Tests?](https://v1-coder-max.github.io/Fine-Leg-Talk/shubman-gill-technique-analysis.html)
-- [Champions Trophy Semi-Final Review: India vs Pakistan — The Match That Had Everything](https://v1-coder-max.github.io/Fine-Leg-Talk/champions-trophy-india-pakistan-semi.html)
-- [The WTC Points System Is Still Broken. Here's How to Fix It.](https://v1-coder-max.github.io/Fine-Leg-Talk/wtc-points-system-broken.html)
-- [The Impact Player Rule: Cricket Innovation or Batters' Charter?](https://v1-coder-max.github.io/Fine-Leg-Talk/ipl-impact-player-rule.html)
-- [Bumrah vs the World: Why He's the Best Bowler in Test Cricket Right Now](https://v1-coder-max.github.io/Fine-Leg-Talk/bumrah-best-test-bowler-2025.html)
-- [The Bazball Blueprint: How England Reinvented Test Batting](https://v1-coder-max.github.io/Fine-Leg-Talk/bazball-blueprint-england.html)
-- [Kohli at 36: The Stats That Show He's Still World Class](https://v1-coder-max.github.io/Fine-Leg-Talk/kohli-at-36-still-world-class.html)
-- [Why Yashasvi Jaiswal Is the Most Exciting Young Batter in World Cricket](https://v1-coder-max.github.io/Fine-Leg-Talk/jaiswal-most-exciting-young-batter.html)
-- [India's Spin Problem in SENA Countries: Is It Getting Better?](https://v1-coder-max.github.io/Fine-Leg-Talk/india-spin-problem-sena-countries.html)
+- [IPL 2026 Playoffs: The 4th Spot Shootout — What Every Team Needs Today](https://fine-leg-talk.vercel.app/ipl-2026-playoff-race-4th-spot.html)
+- [India's Pace Quartet vs England: Why This Is the Greatest Bowling Attack in Indian Test History](https://fine-leg-talk.vercel.app/india-pace-quartet-england-2025.html)
+- [The X-Factor Problem: Why India Can't Settle On an Ideal T20 XI](https://fine-leg-talk.vercel.app/india-t20-xi-problem-2025.html)
+- [IPL vs International Cricket: Has the Balance Finally Shifted Too Far?](https://fine-leg-talk.vercel.app/ipl-vs-international-cricket-2025.html)
+- [Remembering 2011: What Dhoni's World Cup Final Still Teaches Us About Captaincy](https://fine-leg-talk.vercel.app/dhoni-2011-world-cup-captaincy.html)
+- [IPL 2025 Team Report Cards: Who's Delivered on Their Auction Promises?](https://fine-leg-talk.vercel.app/ipl-2025-team-report-cards.html)
+- [Shubman Gill's Technique Under the Microscope: Ready for the Toughest Tests?](https://fine-leg-talk.vercel.app/shubman-gill-technique-analysis.html)
+- [Champions Trophy Semi-Final Review: India vs Pakistan — The Match That Had Everything](https://fine-leg-talk.vercel.app/champions-trophy-india-pakistan-semi.html)
+- [The WTC Points System Is Still Broken. Here's How to Fix It.](https://fine-leg-talk.vercel.app/wtc-points-system-broken.html)
+- [The Impact Player Rule: Cricket Innovation or Batters' Charter?](https://fine-leg-talk.vercel.app/ipl-impact-player-rule.html)
+- [Bumrah vs the World: Why He's the Best Bowler in Test Cricket Right Now](https://fine-leg-talk.vercel.app/bumrah-best-test-bowler-2025.html)
+- [The Bazball Blueprint: How England Reinvented Test Batting](https://fine-leg-talk.vercel.app/bazball-blueprint-england.html)
+- [Kohli at 36: The Stats That Show He's Still World Class](https://fine-leg-talk.vercel.app/kohli-at-36-still-world-class.html)
+- [Why Yashasvi Jaiswal Is the Most Exciting Young Batter in World Cricket](https://fine-leg-talk.vercel.app/jaiswal-most-exciting-young-batter.html)
+- [India's Spin Problem in SENA Countries: Is It Getting Better?](https://fine-leg-talk.vercel.app/india-spin-problem-sena-countries.html)
 
 ## About
 

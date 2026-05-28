@@ -1,7 +1,7 @@
 'use strict';
 const fs = require('fs');
 
-const BASE_URL = 'https://v1-coder-max.github.io/Fine-Leg-Talk';
+const BASE_URL = 'https://fine-leg-talk.vercel.app';
 const data = JSON.parse(fs.readFileSync('posts.json', 'utf8'));
 const posts = data.posts || [];
 
