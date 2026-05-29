@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://fine-leg-talk.vercel.app/sitemap.xml
